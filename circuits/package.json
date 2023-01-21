@@ -1,0 +1,12 @@
+{
+  "name": "zk-hello-world",
+  "version": "1.0.0",
+  "description": "Creating a ZK dapp from scratch",
+  "main": "index.js",
+  "repository": "https://github.com/shrimpynuts/zk-hello-world.git",
+  "author": "Jonathan Cai <caimjonathan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:circuits": "./scripts/build-circuits.sh"
+  }
+}
