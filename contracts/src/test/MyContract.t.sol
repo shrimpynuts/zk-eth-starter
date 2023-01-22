@@ -6,13 +6,7 @@ import {Utilities} from "./utils/Utilities.sol";
 import {console} from "./utils/Console.sol";
 import {Vm} from "forge-std/Vm.sol";
 
-// import "../MyContract.sol"
-
 contract ContractTest is DSTest {
-    function _createTestContract() returns (Contract tc) {
-        tc = Contract();
-    }
-
     Vm internal immutable vm = Vm(HEVM_ADDRESS);
 
     Utilities internal utils;
